@@ -7,7 +7,7 @@ spec:
   description: "All platform apps"
   sourceRepos:
     - https://github.com/apurvbidkar22/test-project.git
-    - https://github.com/apurvbidkar22/test-gitops.git
+    - https://github.com/apurvbidkar22/test-argo.git
   destinations:
     - namespace: '*'
       server: https://kubernetes.default.svc
