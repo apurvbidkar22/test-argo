@@ -6,7 +6,7 @@ metadata:
 spec:
   description: "All platform apps"
   sourceRepos:
-    - 'https://github.com/apurvbidkar22/test-project.git'
+    - 'https://github.com/apurvbidkar22/test-project.git'  # your app repo
   destinations:
     - namespace: '*'
       server: https://kubernetes.default.svc

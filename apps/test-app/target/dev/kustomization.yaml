@@ -1,8 +1,0 @@
-resources:
-  - ../../base/app.yaml
-
-configMapGenerator:
-  - name: test-app-env
-    literals:
-      - ENV=dev
-
