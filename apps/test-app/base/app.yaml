@@ -1,0 +1,19 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: test-app
+  namespace: argocd
+spec:
+  project: platform
+  source:
+    repoURL: https://github.com/apurvbidkar22/test-project.git
+    targetRevision: main
+    path: overlays/ENV   # ENV will be replaced by overlay (dev/stg/prod)
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: test-app-ENV
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+

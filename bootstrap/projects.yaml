@@ -1,0 +1,13 @@
+apiVersion: argoproj.io/v1alpha1
+kind: AppProject
+metadata:
+  name: platform
+  namespace: argocd
+spec:
+  description: "All platform apps"
+  sourceRepos:
+    - 'https://github.com/apurvbidkar22/test-project.git'
+  destinations:
+    - namespace: '*'
+      server: https://kubernetes.default.svc
+
