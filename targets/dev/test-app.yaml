@@ -4,6 +4,16 @@ metadata:
   name: app1-dev
   namespace: argocd
 spec:
+  project: platform
   source:
-    path: targets/dev/app1   # can be empty in app repo
+    repoURL: https://github.com/apurvbidkar22/test-project.git
+    targetRevision: main
+    path: targets/dev/app1   # empty OK for now
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: dev
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
 
