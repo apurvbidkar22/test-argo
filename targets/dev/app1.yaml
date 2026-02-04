@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://github.com/apurvbidkar22/test-project.git
     targetRevision: main
-    path: targets/dev/app1   # can be empty
+    path: targets/dev   # can be empty
 
   destination:
     server: https://kubernetes.default.svc
