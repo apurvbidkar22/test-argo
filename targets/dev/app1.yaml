@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: PLACEHOLDER
+  name: app1-dev
   namespace: argocd
 spec:
   project: platform
@@ -9,14 +9,11 @@ spec:
   source:
     repoURL: https://github.com/apurvbidkar22/test-project.git
     targetRevision: main
-    path: PLACEHOLDER   # resolved by target
+    path: targets/dev/app1   # can be empty
 
   destination:
     server: https://kubernetes.default.svc
     namespace: dev
 
-  syncPolicy:
-    automated:
-      prune: true
-      selfHeal: true
+  syncPolicy: {}   # 👈 NO auto-sync
 

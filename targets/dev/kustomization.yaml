@@ -1,4 +1,3 @@
 resources:
-  - ../../base
-  - test-app.yaml
+  - app1.yaml
 
