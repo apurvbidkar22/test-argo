@@ -1,0 +1,9 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: app1-dev
+  namespace: argocd
+spec:
+  source:
+    path: targets/dev/app1   # can be empty in app repo
+
