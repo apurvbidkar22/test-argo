@@ -10,6 +10,7 @@ spec:
     - https://github.com/apurvbidkar22/*
     - https://github.com/apurvbidkar22/test-argo.git
     - https://git.aitglobalindia.com/ait-inhouse1/nira-website.git
+    - https://git.aitglobalindia.com/nira_hrms/niraxo-admin.git
 
   destinations:
     - namespace: dev

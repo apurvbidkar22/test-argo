@@ -1,13 +1,13 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: niraxo-website-dev
+  name: niraxo-admin-dev
   namespace: argocd
 spec:
   project: platform
 
   source:
-    repoURL: https://git.aitglobalindia.com/ait-inhouse1/nira-website.git
+    repoURL: https://git.aitglobalindia.com/nira_hrms/niraxo-admin.git
     targetRevision: main
     path: targets/dev   # can be empty
 
