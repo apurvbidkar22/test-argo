@@ -7,8 +7,8 @@ spec:
   project: platform
 
   source:
-    repoURL: https://git.aitglobalindia.com/nira_hrms/niraxo-admin.git
-    targetRevision: main
+    repoURL: https://git.aitglobalindia.com/ait-inhouse1/nira-website.git
+    targetRevision: niraxo_poc
     path: targets/dev   # can be empty
 
   destination:

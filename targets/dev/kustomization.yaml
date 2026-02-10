@@ -1,4 +1,19 @@
 resources:
   - niraxo-admin.yaml
   - niraxo-website.yaml
-
+  - niraxo-dashboard.yaml     
+  - niraxo-nexcellence.yaml
+  - niraxo-queuing-process.yaml  
+  - niraxo-employees.yaml  
+  - niraxo-nova-recruit.yaml 
+  - niraxo-queuing.yaml
+  - niraxo-auth-module.yaml 
+  - niraxo-nanotrack.yaml  
+  - niraxo-nucleon.yaml 
+  - niraxo-settings.yaml
+  - niraxo-biometric.yaml  
+  - niraxo-neoanalytics.yaml 
+  - niraxo-numero.yaml  
+  - niraxo-shared-module.yaml
+  - niraxo-frontend.yaml
+  - niraxo-middleware.yaml

@@ -1,15 +1,15 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: niraxo-admin-dev
+  name: niraxo-dashboard-dev
   namespace: argocd
 spec:
   project: platform
 
   source:
-    repoURL: https://git.aitglobalindia.com/nira_hrms/niraxo-admin.git
+    repoURL: https://git.aitglobalindia.com/nira_hrms/niraxo_microservices.git
     targetRevision: niraxo_poc
-    path: targets/dev   # can be empty
+    path: services/niraxo-dashboard/targets/dev
 
   destination:
     server: https://kubernetes.default.svc
