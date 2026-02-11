@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://git.aitglobalindia.com/ait-inhouse1/nira-frontend.git
     targetRevision: niraxo_poc
-    path: services/niraxo-frontend/targets/dev
+    path: targets/dev
 
   destination:
     server: https://kubernetes.default.svc
