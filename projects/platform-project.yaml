@@ -12,6 +12,8 @@ spec:
     - https://git.aitglobalindia.com/ait-inhouse1/nira-website.git
     - https://git.aitglobalindia.com/nira_hrms/niraxo-admin.git
     - https://git.aitglobalindia.com/nira_hrms/niraxo_microservices.git
+    - https://git.aitglobalindia.com/ait-inhouse1/nira-frontend.git
+    - https://git.aitglobalindia.com/nira_hrms/nira-middleware.git
 
   destinations:
     - namespace: dev

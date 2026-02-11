@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: niraxo-auth-module-dev
+  name: niraxo-nexcellence-dev
   namespace: argocd
 spec:
   project: platform
@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://git.aitglobalindia.com/nira_hrms/niraxo_microservices.git
     targetRevision: niraxo_poc
-    path: services/niraxo-auth-module/targets/dev
+    path: services/niraxo-nexcellence/targets/dev
 
   destination:
     server: https://kubernetes.default.svc

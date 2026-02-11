@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://git.aitglobalindia.com/nira_hrms/nira-middleware.git
     targetRevision: niraxo_poc
-    path: services/niraxo-middleware/targets/dev
+    path: targets/dev
 
   destination:
     server: https://kubernetes.default.svc

@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: niraxo-nexcellence-dev
+  name: niraxo-neoanalytics-dev
   namespace: argocd
 spec:
   project: platform
@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: https://git.aitglobalindia.com/nira_hrms/niraxo_microservices.git
     targetRevision: niraxo_poc
-    path: services/niraxo-nexcellence/targets/dev
+    path: services/niraxo-neoanalytics/targets/dev
 
   destination:
     server: https://kubernetes.default.svc
